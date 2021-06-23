@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Slabo+27px&display=swap"
+        rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="icon" href="../images/Logo.png" type="image/png" sizes="10x10">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a portfolio website for Manav Pandya">
+    <meta name="author" content="Manav Pandya">
+    <meta name="keywords" content="Manav, Pandya, Manav Pandya">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manav Pandya</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="navigation" id="navbar">
+            <img src="../images/Logo.png" alt="logo" class="logo">
+            <nav class="navigation-links">
+                <ul>
+                    <li><a href="#home-header" class="home-link">Home</a></li>
+                    <li><a href="#about-section" class="projects-link">About Me</a></li>
+                    <li><a href="#projects-section" class="projects-link">Projects</a></li>
+                    <li><a href="#" target="_blank" class="job-info-link">Job Information</a>
+                    </li>
+                    <li><a href="#contact-section" class="contact-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="parallax">
+        <div class="home-header" id="home-header">
+            <h1 class="home-title heading1">Hello, <br> My name is Manav Pandya</h1>
+            <h5 class="home-subtitle heading5">- Software Engineering Student at the University of Guelph -</h5>
+            <div class="learn-more">
+                <button type="button" class="learn-more-button" id="learn-more-btn"
+                    title="Scroll Down to Learn More">Learn
+                    More <span class="arrow"></span></button>
+            </div>
+        </div>
+    </div>
+    <div class="parallax"></div>
+    <main class="content">
+        <div class="about-details content" id="about-section">
+            <div class="about-me">
+                <h1 class="about-me-heading">About Me</h1>
+                <p class="about-me-content">Hello, my name is Manav Pandya and I am a software engineering student at
+                    the University of Guelph with co-op.
+                    I am currently in my 2nd year and have worked on a few of my own projects using different
+                    programming
+                    languages.
+                </p>
+            </div>
+            <div class="education">
+                <div class="education-heading">
+                    <h2>Education</h2>
+                </div>
+                <hr>
+                <p class="education-content">
+                    <span class="school-name left">University of Guelph</span>
+                    <span class="time right">2020 - present</span>
+                    <br>
+                    <span class="prog-name left">Software Engineering B.Comp.</span>
+                    <span class="location right">Guelph, Ontario</span>
+                </p>
+                <a href="https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-computing-bcomp/#text"
+                    target="_blank"><img src="../images/guelph.jpg" alt="University of Guelph logo"
+                        class="guelph-logo"></a>
+                <p class="education-description"> <b> Overview </b> <br> Students graduating from this program obtain a
+                    solid foundation in the theory and application of all aspects of computing and information science.
+                    Core subjects, combined with in-depth study in an area of application, give students the freedom to
+                    combine their interests in computing with other areas of study and application.</p>
+                <hr style="margin: 0;">
+            </div>
+            <div class="skills">
+                <div class="skills-heading">
+                    <h2>Skills</h2>
+                </div>
+                <div class="skills-content">
+                    <div class="int-skills">
+                        <h2>Intermediate</h2>
+                        <div class="language-section">
+                            <img src="../images/c.png" alt="C language logo" class="c-image lang-image">
+                            <h2>C</h2>
+                            <p>Data Structures, Algorithms</p>
+                        </div>
+                        <div class="language-section">
+                            <img src="../images/java.png" alt="java language logo" class="java-image lang-image">
+                            <h2>Java</h2>
+                            <p>Object Oriented Programming</p>
+                        </div>
+                    </div>
+                    <div class="begin-skills">
+                        <h2>Beginner</h2>
+                        <div class="language-section">
+                            <img src="../images/python.png" alt="python language logo" class="python-image lang-image">
+                            <h2>Python</h2>
+                            <p>Basic Syntax</p>
+                        </div>
+                        <div class="language-section">
+                            <img src="../images/html.png" alt="html languages logo" class="html-image lang-image">
+                            <h2>HTML</h2>
+                            <p>Basic Web Development</p>
+                        </div>
+                        <div class="language-section">
+                            <img src="../images/css.png" alt="css languages logo" class="css-image lang-image">
+                            <h2>CSS</h2>
+                            <p>Basic Web Development</p>
+                        </div>
+                        <div class="language-section">
+                            <img src="../images/js.png" alt="js languages logo" class="js-image lang-image">
+                            <h2>Javascript</h2>
+                            <p>Basic Web Development</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-projects" id="projects-section">
+            <h2 class="projects-heading">Projects</h2>
+            <div class="top-projects-selectors">
+
+                <div class="project-selector">
+                    <img src="../images/pong.png" alt="pong" class="project-image">
+                    <div class="project-middle">
+                        <p>Pong Game <br> Made with Processing, Javascript <br>2019</p>
+                    </div>
+                </div>
+                <div class="project-selector">
+                    <img src="../images/plot.jpeg" alt="data program" class="project-image">
+                    <div class="project-middle">
+                        <p>Covid Data Analyzation Program <br>Made with Python <br>2021</p>
+                    </div>
+                </div>
+                <div class="project-selector">
+                    <img src="../images/fighter.png" alt="fighter" class="project-image">
+                    <div class="project-middle">
+                        <p>Fighting Game <br> Made with Java <br>2020</p>
+                    </div>
+                </div>
+                <div class="project-more-info">
+                    <div class="dropdown-row">
+                        <button id="pong-drop-btn" class="pong-info-btn drop-btn-design"><span class="bottom-arrow"
+                                id="pong-arrow"></span></button>
+                        <button id="data-drop-btn" class="data-info-btn drop-btn-design"><span class="bottom-arrow"
+                                id="data-arrow"></span></button>
+                        <button id="fight-drop-btn" class="fight-info-btn drop-btn-design"><span class="bottom-arrow"
+                                id="fight-arrow"></span></button>
+                    </div>
+                    <div class="dropdown-row">
+                        <div id="pong-dropdown" class="pong-drop-content drop-content">
+                            <p>Description:<br>As a project for my computer science class in high school, I decided
+                                to
+                                create a clone of the pong game with
+                                added features which demonstrate my ability to use the basics of javascript. <br> <a
+                                    href="https://manav-pong.netlify.app/" target="_blank">Link to Game</a></p>
+                        </div>
+                        <div id="data-dropdown" class="data-drop-content drop-content">
+                            <p>Description:<br>This program was made by me as well as three others. In order to accurately answer questions about the covid-19 pandemic and
+                                its spread, this programs uses offical covid-19 data to plot graphs which can be used to
+                                anaylze and answer questions about the data. </p>
+                        </div>
+                        <div id="fight-dropdown" class="fight-drop-content drop-content">
+                            <p>Description:<br>With two friends in high school, we created a simple and unfinished
+                                fighting game using Java and object oriented
+                                programming.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-selector">
+                    <img src="../images/portfolio.png" alt="portfolio" class="project-image">
+                    <div class="project-middle">
+                        <p>Personal Portfolio Website <br> Made with HTML, CSS, Javascript <br>2021</p>
+                    </div>
+                </div>
+                <div class="project-more-info">
+                    <div class="dropdown-row">
+                        <button id="portfolio-drop-btn" class="portfolio-info-btn drop-btn-design"><span
+                                class="bottom-arrow" id="portfolio-arrow"></span></button>
+                    </div>
+                    <div class="dropdown-row">
+                        <div id="portfolio-dropdown" class="portfolio-drop-content drop-content">
+                            <p>Description:<br>This website is a personal portfolio containing information about me and
+                                my skills as well as projects that I have created which demonstrate my software
+                                engineering abilities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-me" id="contact-section">
+            <h2>Contact Me</h2>
+            <p>Let's get in touch</p>
+            <form action="contact.php" class="contact-form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" class="name-input" placeholder="Enter your name ...">
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" class="email-input" placeholder="Enter your email ...">
+
+                <label for="message">Message:</label>
+                <textarea class="message-input" placeholder="Write your message ..."></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/manavpandya30/?hl=en" target="_blank"> <i
+                        data-feather="instagram"></i> </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/manav.pandya.14" target="_blank"> <i data-feather="facebook"></i> </a>
+            </li>
+            <li>
+                <a href="https://github.com/Manav300" target="_blank"> <i data-feather="github"></i> </a>
+            </li>
+            <li>
+                <a href="https://ca.linkedin.com/in/manav-pandya" target="_blank"> <i data-feather="linkedin"></i> </a>
+            </li>
+        </ul>
+        <div>
+            <span>Manav Pandya 2021 <br> Contact Me</span>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../javascript/script.js"></script>
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+
+</html>

@@ -464,6 +464,10 @@ nav a:hover::after {
   transition: 0.5s ease;
 }
 
+.drop-content a, a:visited{
+  color: rgb(121, 121, 121);
+}
+
 .drop-content::-webkit-scrollbar{
   width: 0;
 }
@@ -570,7 +574,7 @@ input[type=submit]:hover{
 }
 
 .footer > ul > li > a:visited{
-  color: rgb(85,26,139);
+  color: rgb(94, 94, 94);
   text-decoration: none;
 }
 

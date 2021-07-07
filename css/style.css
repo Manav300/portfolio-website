@@ -54,12 +54,16 @@ nav li {
   font-size: 100%;
 }
 
-nav a {
+nav a{
   color: black;
   font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.3s ease;
+}
+
+nav a:visited{
+  color: black;
 }
 
 nav a:hover {
@@ -230,6 +234,7 @@ nav a:hover::after {
 
 .education-description > b{
   font-size: x-large;
+  font-weight: 500;
 }
 
 .guelph-logo {
@@ -553,15 +558,16 @@ input[type=submit]:hover{
   padding: 50px 0;
   width: 100%;
   background-color: #09191f;
-  color: white;
+  color: rgb(170, 170, 170);
   font-family: "Lato", sans-serif;
+  font-size: medium;
   text-align: center;
   line-height: 30px;
 }
 
 .footer ul{
   margin: 0 40%;
-  padding: 0;
+  padding: 2rem 0 1.5rem 0;
   list-style: none;
   display: flex;
   justify-content: space-around;

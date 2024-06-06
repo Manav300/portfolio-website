@@ -17,7 +17,7 @@ const Hero = () => {
                     <p className='hover:text-white hover:text-6xl hover:cursor-default'>Let&apos;s get in touch.</p>
                 </div>
             </div>
-            <a href='#experience' className='z-50 hidden lg:inline'>
+            <a href='#experience' className='hidden lg:inline'>
                 <div className={styles.scrollDown}></div>
             </a>
             <ParticlesBackground />

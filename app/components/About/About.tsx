@@ -9,7 +9,7 @@ const About = () => {
         Hello, my name is Manav Pandya and I am a Software Engineer working towards a Bachelor of Computing from the University of Guelph,
         specializing in Full-Stack Software Development. My experience spans software development, cloud engineering, and
         application development, where I have enhanced application performance, developed full-stack web apps, and implemented
-        cloud solutions. I have strong skills in C, Python, Java, SQL, JavaScript, and C#, and I'm proficient with frameworks like
+        cloud solutions. I have strong skills in C, Python, Java, SQL, JavaScript, and C#, and I&apos;m proficient with frameworks like
         React, ASP.NET, and tools such as AWS and Git.
       </p>
     </div>

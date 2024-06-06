@@ -22,7 +22,7 @@ let timelineElements = [
     title: "Application Developer Co-op at CIBC",
     location: "Toronto, Ontario",
     description:
-      "Collaborated on a team working on a PEGA document manager application within an agile and test-driven developement environmen. Also developed a front-end UI for QA and business teams.",
+      "Collaborated on a team working on a PEGA document manager application within an agile and test-driven developement environment. Also developed a front-end UI for QA and business teams.",
     date: "May 2022 - August 2022",
     icon: "work",
   },

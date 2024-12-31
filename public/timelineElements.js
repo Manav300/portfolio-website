@@ -1,6 +1,15 @@
 let timelineElements = [
   {
     id: 1,
+    title: "Research Assistant at The University of Guelph",
+    location: "Guelph, Ontario",
+    description:
+      "Developed Python image analysis tool, improved Matlab codebase, and validated data for nuclear steam generator simulations using OpenCV and NumPy.",
+    date: "June 2024 - August 2024",
+    icon: "work",
+  },
+  {
+    id: 2,
     title: "Software Developer Intern at The Descartes Systems Group Inc",
     location: "Waterloo, Ontario",
     description:
@@ -9,7 +18,7 @@ let timelineElements = [
     icon: "work",
   },
   {
-    id: 2,
+    id: 3,
     title: "Cloud Engineer Co-op at Sun Life Financial",
     location: "Waterloo, Ontario",
     description:
@@ -18,7 +27,7 @@ let timelineElements = [
     icon: "work",
   },
   {
-    id: 3,
+    id: 4,
     title: "Application Developer Co-op at CIBC",
     location: "Toronto, Ontario",
     description:
@@ -27,7 +36,7 @@ let timelineElements = [
     icon: "work",
   },
   {
-    id: 4,
+    id: 5,
     title: "Bachelor of Computing, Software Engineering at University of Guelph",
     location: "Guelph, Ontario",
     description:

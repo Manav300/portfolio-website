@@ -14,6 +14,9 @@ const Navbar = () => {
                     <li className='hover:text-white/70 transition ease-in'>
                         <a href="#projects">Projects</a>
                     </li>
+                    <li className='hover:text-white/70 transition ease-in'>
+                        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                    </li>
                 </ul>
             </nav>
         </div>
